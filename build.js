@@ -412,6 +412,7 @@ System.register("lib/ajax", ["lib/animations"], function($__export) {
       request.onreadystatechange = function() {
         if (request.readyState == 4) {
           if (request.status == 200) {
+            console.log(request.response.innerHTML);
             resolve(request.response.querySelector(".main").innerHTML);
           } else {
             reject("Error " + request.status);
@@ -465,7 +466,6 @@ System.register("lib/main", ["lib/ajax"], function($__export) {
           var navLinks = document.querySelectorAll("nav a");
           var $__0 = function() {
             var link = navLinks[i];
-            console.log(i);
             link.addEventListener("click", function(e) {
               if (e.metaKey || e.ctrlKey || e.shiftKey)
                 return ;
