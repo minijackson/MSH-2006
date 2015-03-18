@@ -461,10 +461,11 @@ System.register("lib/main", ["lib/ajax"], function($__export) {
     }],
     execute: function() {
       document.onreadystatechange = function() {
-        if (document.readyState == "interactive" || document.readyState == "complete") {
+        if (document.readyState == "interactive") {
           var navLinks = document.querySelectorAll("nav a");
           var $__0 = function() {
             var link = navLinks[i];
+            console.log(i);
             link.addEventListener("click", function(e) {
               if (e.metaKey || e.ctrlKey || e.shiftKey)
                 return ;
