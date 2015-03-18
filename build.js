@@ -430,7 +430,9 @@ System.register("lib/ajax", ["lib/animations"], function($__export) {
     }).then(function() {
       loadPage(url, main);
     }).then(function(html) {
-      main.innerHTML = html;
+      if (html != undefined) {
+        main.innerHTML = html;
+      }
     }).catch(function(error) {
       console.log(error);
     }).then(function() {
