@@ -381,12 +381,17 @@ System.register("lib/animations", [], function($__export) {
         element.classList.add("ajax-animation-in");
       }
       window.setTimeout(function() {
+        element.classList.remove("ajax-animation-done");
+        element.classList.remove("ajax-animation-in");
         resolve(true);
       }, 300);
     });
   }
   function loading(element) {
-    console.log("loading");
+    element.classList.add("ajax-loading");
+  }
+  function stopLoading(element) {
+    element.classList.remove("ajax-loading");
   }
   return {
     setters: [],
@@ -394,7 +399,8 @@ System.register("lib/animations", [], function($__export) {
       $__export('default', {
         animateOut: animateOut,
         animateIn: animateIn,
-        loading: loading
+        loading: loading,
+        stopLoading: stopLoading
       });
     }
   };
@@ -430,7 +436,7 @@ System.register("lib/ajax", ["lib/animations"], function($__export) {
     Animations.animateOut(main).then(function() {
       Animations.loading(main);
     }).then(function() {
-      loadPage(url, main);
+      return loadPage(url, main);
     }).then(function(html) {
       if (html != undefined) {
         main.innerHTML = html;
@@ -438,7 +444,9 @@ System.register("lib/ajax", ["lib/animations"], function($__export) {
     }).catch(function(error) {
       console.log(error);
     }).then(function() {
-      Animations.animateIn(main);
+      Animations.stopLoading(main);
+    }).then(function() {
+      return Animations.animateIn(main);
     });
   }
   return {
