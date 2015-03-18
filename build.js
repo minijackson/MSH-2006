@@ -412,15 +412,16 @@ System.register("lib/ajax", ["lib/animations"], function($__export) {
       request.onreadystatechange = function() {
         if (request.readyState == 4) {
           if (request.status == 200) {
-            console.log(request.response.innerHTML);
-            resolve(request.response.querySelector(".main").innerHTML);
+            var doc = document.implementation.createHTMLDocument();
+            doc.documentElement.innerHTML = request.response;
+            resolve(doc.querySelector(".main").innerHTML);
           } else {
             reject("Error " + request.status);
           }
         }
       };
       request.open("GET", url, true);
-      request.responseType = "document";
+      request.responseType = "text";
       request.send();
     });
   }
