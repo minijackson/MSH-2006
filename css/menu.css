@@ -1,0 +1,72 @@
+nav {
+	width: 100%;
+	background: #28324e;
+	padding: .5em;
+}
+
+nav ul {
+	max-width: 75em;
+	margin: 0 auto;
+	text-align: center;
+
+	display: flex;
+	display: -webkit-flex;
+
+	-webkit-flex-direction: row;
+	flex-direction: row;
+}
+
+nav ul li {
+	transition: background .3s;
+
+	list-style: none;
+	display: inline-block;
+	font-weight: bold;
+	background: #38425e;
+	margin: 0 .5em;
+
+	flex: 1;
+	-webkit-flex: 1;
+
+	overflow: hidden;
+}
+
+nav ul li:hover {
+	background: #48526e;
+}
+
+nav ul li a {
+	transition: transform .3s;
+
+	display: block;
+	position: relative;
+
+	height: 100%;
+	width: 100%;
+
+	padding: 1em;
+
+	transform: translate3d(0, 100%, 0);
+}
+
+nav ul li:hover a {
+	transform: translate3d(0, 0, 0);
+}
+
+nav ul li a::before {
+	content: attr(data-hover);
+
+	box-sizing: padding-box;
+	display: block;
+	position: absolute;
+
+	top: 0;
+	left: 0;
+
+	height: 100%;
+	width: 100%;
+
+	padding: inherit;
+
+	transform: translate3d(0, -100%, 0);
+}
