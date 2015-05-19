@@ -1,8 +1,11 @@
 @keyframes ajax-animation-out {
-	from {
-		opacity: 1;
-		transform: translateX(0%);
+	to {
+		opacity: 0;
+		transform: translateX(-8rem);
 	}
+}
+
+@-webkit-keyframes ajax-animation-out {
 	to {
 		opacity: 0;
 		transform: translateX(-8rem);
@@ -10,10 +13,13 @@
 }
 
 @keyframes ajax-animation-in {
-	from {
-		opacity: 0;
-		transform: translateX(8rem);
+	to {
+		opacity: 1;
+		transform: translateX(0%);
 	}
+}
+
+@-webkit-keyframes ajax-animation-in {
 	to {
 		opacity: 1;
 		transform: translateX(0%);
@@ -28,21 +34,83 @@
 .ajax-animation-out :nth-child(1) {
 	animation-name: ajax-animation-out;
 	animation-duration: .3s;
+	animation-fill-mode: forwards;
+	-webkit-animation-name: ajax-animation-out;
+	-webkit-animation-duration: .3s;
+	-webkit-animation-fill-mode: forwards;
 }
 
 .ajax-animation-out :nth-child(2) {
 	animation-name: ajax-animation-out;
 	animation-duration: .3s;
 	animation-delay: .05s;
+	animation-fill-mode: forwards;
+	-webkit-animation-name: ajax-animation-out;
+	-webkit-animation-duration: .3s;
+	-webkit-animation-delay: .05s;
+	-webkit-animation-fill-mode: forwards;
+}
+
+.ajax-animation-out :nth-child(3) {
+	animation-name: ajax-animation-out;
+	animation-duration: .3s;
+	animation-delay: .1s;
+	animation-fill-mode: forwards;
+	-webkit-animation-name: ajax-animation-out;
+	-webkit-animation-duration: .3s;
+	-webkit-animation-delay: .1s;
+	-webkit-animation-fill-mode: forwards;
+}
+
+.ajax-animation-out :nth-child(4) {
+	animation-name: ajax-animation-out;
+	animation-duration: .3s;
+	animation-delay: .15s;
+	animation-fill-mode: forwards;
+	-webkit-animation-name: ajax-animation-out;
+	-webkit-animation-duration: .3s;
+	-webkit-animation-delay: .15s;
+	-webkit-animation-fill-mode: forwards;
 }
 
 .ajax-animation-in :nth-child(1) {
 	animation-name: ajax-animation-in;
 	animation-duration: .3s;
+	animation-fill-mode: forwards;
+	-webkit-animation-name: ajax-animation-in;
+	-webkit-animation-duration: .3s;
+	-webkit-animation-fill-mode: forwards;
 }
 
 .ajax-animation-in :nth-child(2) {
 	animation-name: ajax-animation-in;
 	animation-duration: .3s;
 	animation-delay: .05s;
+	animation-fill-mode: forwards;
+	-webkit-animation-name: ajax-animation-in;
+	-webkit-animation-duration: .3s;
+	-webkit-animation-delay: .05s;
+	-webkit-animation-fill-mode: forwards;
+}
+
+.ajax-animation-in :nth-child(3) {
+	animation-name: ajax-animation-in;
+	animation-duration: .3s;
+	animation-delay: .1s;
+	animation-fill-mode: forwards;
+	-webkit-animation-name: ajax-animation-in;
+	-webkit-animation-duration: .3s;
+	-webkit-animation-delay: .1s;
+	-webkit-animation-fill-mode: forwards;
+}
+
+.ajax-animation-in :nth-child(4) {
+	animation-name: ajax-animation-in;
+	animation-duration: .3s;
+	animation-delay: .15s;
+	animation-fill-mode: forwards;
+	-webkit-animation-name: ajax-animation-in;
+	-webkit-animation-duration: .3s;
+	-webkit-animation-delay: .15s;
+	-webkit-animation-fill-mode: forwards;
 }
