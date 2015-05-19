@@ -365,6 +365,7 @@ System.register("lib/animations", [], function($__export) {
   var __moduleName = "lib/animations";
   function animateOut(element) {
     return new Promise(function(resolve, reject) {
+      element.classList.remove("ajax-animation-in");
       if (!element.classList.contains("ajax-animation-out")) {
         element.classList.add("ajax-animation-out");
       }
@@ -377,6 +378,7 @@ System.register("lib/animations", [], function($__export) {
   }
   function animateIn(element) {
     return new Promise(function(resolve, reject) {
+      element.classList.remove("ajax-animation-out");
       if (!element.classList.contains("ajax-animation-in")) {
         element.classList.add("ajax-animation-in");
       }
