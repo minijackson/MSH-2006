@@ -373,7 +373,7 @@ System.register("lib/animations", [], function($__export) {
         element.classList.remove("ajax-animation-out");
         element.classList.add("ajax-animation-done");
         resolve(true);
-      }, 300);
+      }, 300 + (50 * element.children.length));
     });
   }
   function animateIn(element) {
@@ -382,11 +382,14 @@ System.register("lib/animations", [], function($__export) {
       if (!element.classList.contains("ajax-animation-in")) {
         element.classList.add("ajax-animation-in");
       }
+      var mainContent = document.querySelector(".main");
+      mainContent.style.maxHeight = "none";
       window.setTimeout(function() {
         element.classList.remove("ajax-animation-done");
         element.classList.remove("ajax-animation-in");
+        mainContent.style.maxHeight = mainContent.offsetHeight + "px";
         resolve(true);
-      }, 300);
+      }, 300 + (50 * element.children.length));
     });
   }
   function loading(element) {
@@ -474,6 +477,8 @@ System.register("lib/main", ["lib/ajax"], function($__export) {
     execute: function() {
       document.onreadystatechange = function() {
         if (document.readyState == "interactive") {
+          var mainContent = document.querySelector(".main");
+          mainContent.style.maxHeight = mainContent.offsetHeight;
           var navLinks = document.querySelectorAll("nav a");
           var $__0 = function() {
             var link = navLinks[i];

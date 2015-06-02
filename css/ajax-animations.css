@@ -31,7 +31,7 @@
 	opacity: 0;
 }
 
-.ajax-animation-out :nth-child(1) {
+.ajax-animation-out > :nth-child(1) {
 	animation-name: ajax-animation-out;
 	animation-duration: .3s;
 	animation-fill-mode: forwards;
@@ -40,7 +40,7 @@
 	-webkit-animation-fill-mode: forwards;
 }
 
-.ajax-animation-out :nth-child(2) {
+.ajax-animation-out > :nth-child(2) {
 	animation-name: ajax-animation-out;
 	animation-duration: .3s;
 	animation-delay: .05s;
@@ -51,7 +51,7 @@
 	-webkit-animation-fill-mode: forwards;
 }
 
-.ajax-animation-out :nth-child(3) {
+.ajax-animation-out > :nth-child(3) {
 	animation-name: ajax-animation-out;
 	animation-duration: .3s;
 	animation-delay: .1s;
@@ -62,7 +62,7 @@
 	-webkit-animation-fill-mode: forwards;
 }
 
-.ajax-animation-out :nth-child(4) {
+.ajax-animation-out > :nth-child(4) {
 	animation-name: ajax-animation-out;
 	animation-duration: .3s;
 	animation-delay: .15s;
@@ -73,7 +73,183 @@
 	-webkit-animation-fill-mode: forwards;
 }
 
-.ajax-animation-in :nth-child(1) {
+.ajax-animation-out > :nth-child(5) {
+	animation-name: ajax-animation-out;
+	animation-duration: .3s;
+	animation-delay: .20s;
+	animation-fill-mode: forwards;
+	-webkit-animation-name: ajax-animation-out;
+	-webkit-animation-duration: .3s;
+	-webkit-animation-delay: .20s;
+	-webkit-animation-fill-mode: forwards;
+}
+
+.ajax-animation-out > :nth-child(6) {
+	animation-name: ajax-animation-out;
+	animation-duration: .3s;
+	animation-delay: .25s;
+	animation-fill-mode: forwards;
+	-webkit-animation-name: ajax-animation-out;
+	-webkit-animation-duration: .3s;
+	-webkit-animation-delay: .25s;
+	-webkit-animation-fill-mode: forwards;
+}
+
+.ajax-animation-out > :nth-child(7) {
+	animation-name: ajax-animation-out;
+	animation-duration: .3s;
+	animation-delay: .30s;
+	animation-fill-mode: forwards;
+	-webkit-animation-name: ajax-animation-out;
+	-webkit-animation-duration: .3s;
+	-webkit-animation-delay: .30s;
+	-webkit-animation-fill-mode: forwards;
+}
+
+.ajax-animation-out > :nth-child(8) {
+	animation-name: ajax-animation-out;
+	animation-duration: .3s;
+	animation-delay: .35s;
+	animation-fill-mode: forwards;
+	-webkit-animation-name: ajax-animation-out;
+	-webkit-animation-duration: .3s;
+	-webkit-animation-delay: .35s;
+	-webkit-animation-fill-mode: forwards;
+}
+
+.ajax-animation-out > :nth-child(9) {
+	animation-name: ajax-animation-out;
+	animation-duration: .3s;
+	animation-delay: .40s;
+	animation-fill-mode: forwards;
+	-webkit-animation-name: ajax-animation-out;
+	-webkit-animation-duration: .3s;
+	-webkit-animation-delay: .40s;
+	-webkit-animation-fill-mode: forwards;
+}
+
+.ajax-animation-out > :nth-child(10) {
+	animation-name: ajax-animation-out;
+	animation-duration: .3s;
+	animation-delay: .45s;
+	animation-fill-mode: forwards;
+	-webkit-animation-name: ajax-animation-out;
+	-webkit-animation-duration: .3s;
+	-webkit-animation-delay: .45s;
+	-webkit-animation-fill-mode: forwards;
+}
+
+.ajax-animation-out > :nth-child(11) {
+	animation-name: ajax-animation-out;
+	animation-duration: .3s;
+	animation-delay: .50s;
+	animation-fill-mode: forwards;
+	-webkit-animation-name: ajax-animation-out;
+	-webkit-animation-duration: .3s;
+	-webkit-animation-delay: .50s;
+	-webkit-animation-fill-mode: forwards;
+}
+
+.ajax-animation-out > :nth-child(12) {
+	animation-name: ajax-animation-out;
+	animation-duration: .3s;
+	animation-delay: .55s;
+	animation-fill-mode: forwards;
+	-webkit-animation-name: ajax-animation-out;
+	-webkit-animation-duration: .3s;
+	-webkit-animation-delay: .55s;
+	-webkit-animation-fill-mode: forwards;
+}
+
+.ajax-animation-out > :nth-child(13) {
+	animation-name: ajax-animation-out;
+	animation-duration: .3s;
+	animation-delay: .60s;
+	animation-fill-mode: forwards;
+	-webkit-animation-name: ajax-animation-out;
+	-webkit-animation-duration: .3s;
+	-webkit-animation-delay: .60s;
+	-webkit-animation-fill-mode: forwards;
+}
+
+.ajax-animation-out > :nth-child(14) {
+	animation-name: ajax-animation-out;
+	animation-duration: .3s;
+	animation-delay: .65s;
+	animation-fill-mode: forwards;
+	-webkit-animation-name: ajax-animation-out;
+	-webkit-animation-duration: .3s;
+	-webkit-animation-delay: .65s;
+	-webkit-animation-fill-mode: forwards;
+}
+
+.ajax-animation-out > :nth-child(15) {
+	animation-name: ajax-animation-out;
+	animation-duration: .3s;
+	animation-delay: .70s;
+	animation-fill-mode: forwards;
+	-webkit-animation-name: ajax-animation-out;
+	-webkit-animation-duration: .3s;
+	-webkit-animation-delay: .70s;
+	-webkit-animation-fill-mode: forwards;
+}
+
+.ajax-animation-out > :nth-child(16) {
+	animation-name: ajax-animation-out;
+	animation-duration: .3s;
+	animation-delay: .75s;
+	animation-fill-mode: forwards;
+	-webkit-animation-name: ajax-animation-out;
+	-webkit-animation-duration: .3s;
+	-webkit-animation-delay: .75s;
+	-webkit-animation-fill-mode: forwards;
+}
+
+.ajax-animation-out > :nth-child(17) {
+	animation-name: ajax-animation-out;
+	animation-duration: .3s;
+	animation-delay: .80s;
+	animation-fill-mode: forwards;
+	-webkit-animation-name: ajax-animation-out;
+	-webkit-animation-duration: .3s;
+	-webkit-animation-delay: .80s;
+	-webkit-animation-fill-mode: forwards;
+}
+
+.ajax-animation-out > :nth-child(18) {
+	animation-name: ajax-animation-out;
+	animation-duration: .3s;
+	animation-delay: .85s;
+	animation-fill-mode: forwards;
+	-webkit-animation-name: ajax-animation-out;
+	-webkit-animation-duration: .3s;
+	-webkit-animation-delay: .85s;
+	-webkit-animation-fill-mode: forwards;
+}
+
+.ajax-animation-out > :nth-child(19) {
+	animation-name: ajax-animation-out;
+	animation-duration: .3s;
+	animation-delay: .90s;
+	animation-fill-mode: forwards;
+	-webkit-animation-name: ajax-animation-out;
+	-webkit-animation-duration: .3s;
+	-webkit-animation-delay: .90s;
+	-webkit-animation-fill-mode: forwards;
+}
+
+.ajax-animation-out > :nth-child(20) {
+	animation-name: ajax-animation-out;
+	animation-duration: .3s;
+	animation-delay: .95s;
+	animation-fill-mode: forwards;
+	-webkit-animation-name: ajax-animation-out;
+	-webkit-animation-duration: .3s;
+	-webkit-animation-delay: .95s;
+	-webkit-animation-fill-mode: forwards;
+}
+
+.ajax-animation-in > :nth-child(1) {
 	animation-name: ajax-animation-in;
 	animation-duration: .3s;
 	animation-fill-mode: forwards;
@@ -82,7 +258,7 @@
 	-webkit-animation-fill-mode: forwards;
 }
 
-.ajax-animation-in :nth-child(2) {
+.ajax-animation-in > :nth-child(2) {
 	animation-name: ajax-animation-in;
 	animation-duration: .3s;
 	animation-delay: .05s;
@@ -93,7 +269,7 @@
 	-webkit-animation-fill-mode: forwards;
 }
 
-.ajax-animation-in :nth-child(3) {
+.ajax-animation-in > :nth-child(3) {
 	animation-name: ajax-animation-in;
 	animation-duration: .3s;
 	animation-delay: .1s;
@@ -104,7 +280,7 @@
 	-webkit-animation-fill-mode: forwards;
 }
 
-.ajax-animation-in :nth-child(4) {
+.ajax-animation-in > :nth-child(4) {
 	animation-name: ajax-animation-in;
 	animation-duration: .3s;
 	animation-delay: .15s;
@@ -112,5 +288,181 @@
 	-webkit-animation-name: ajax-animation-in;
 	-webkit-animation-duration: .3s;
 	-webkit-animation-delay: .15s;
+	-webkit-animation-fill-mode: forwards;
+}
+
+.ajax-animation-in > :nth-child(5) {
+	animation-name: ajax-animation-in;
+	animation-duration: .3s;
+	animation-delay: .20s;
+	animation-fill-mode: forwards;
+	-webkit-animation-name: ajax-animation-in;
+	-webkit-animation-duration: .3s;
+	-webkit-animation-delay: .20s;
+	-webkit-animation-fill-mode: forwards;
+}
+
+.ajax-animation-in > :nth-child(6) {
+	animation-name: ajax-animation-in;
+	animation-duration: .3s;
+	animation-delay: .25s;
+	animation-fill-mode: forwards;
+	-webkit-animation-name: ajax-animation-in;
+	-webkit-animation-duration: .3s;
+	-webkit-animation-delay: .25s;
+	-webkit-animation-fill-mode: forwards;
+}
+
+.ajax-animation-in > :nth-child(7) {
+	animation-name: ajax-animation-in;
+	animation-duration: .3s;
+	animation-delay: .30s;
+	animation-fill-mode: forwards;
+	-webkit-animation-name: ajax-animation-in;
+	-webkit-animation-duration: .3s;
+	-webkit-animation-delay: .30s;
+	-webkit-animation-fill-mode: forwards;
+}
+
+.ajax-animation-in > :nth-child(8) {
+	animation-name: ajax-animation-in;
+	animation-duration: .3s;
+	animation-delay: .35s;
+	animation-fill-mode: forwards;
+	-webkit-animation-name: ajax-animation-in;
+	-webkit-animation-duration: .3s;
+	-webkit-animation-delay: .35s;
+	-webkit-animation-fill-mode: forwards;
+}
+
+.ajax-animation-in > :nth-child(9) {
+	animation-name: ajax-animation-in;
+	animation-duration: .3s;
+	animation-delay: .40s;
+	animation-fill-mode: forwards;
+	-webkit-animation-name: ajax-animation-in;
+	-webkit-animation-duration: .3s;
+	-webkit-animation-delay: .40s;
+	-webkit-animation-fill-mode: forwards;
+}
+
+.ajax-animation-in > :nth-child(10) {
+	animation-name: ajax-animation-in;
+	animation-duration: .3s;
+	animation-delay: .45s;
+	animation-fill-mode: forwards;
+	-webkit-animation-name: ajax-animation-in;
+	-webkit-animation-duration: .3s;
+	-webkit-animation-delay: .45s;
+	-webkit-animation-fill-mode: forwards;
+}
+
+.ajax-animation-in > :nth-child(11) {
+	animation-name: ajax-animation-in;
+	animation-duration: .3s;
+	animation-delay: .50s;
+	animation-fill-mode: forwards;
+	-webkit-animation-name: ajax-animation-in;
+	-webkit-animation-duration: .3s;
+	-webkit-animation-delay: .50s;
+	-webkit-animation-fill-mode: forwards;
+}
+
+.ajax-animation-in > :nth-child(12) {
+	animation-name: ajax-animation-in;
+	animation-duration: .3s;
+	animation-delay: .55s;
+	animation-fill-mode: forwards;
+	-webkit-animation-name: ajax-animation-in;
+	-webkit-animation-duration: .3s;
+	-webkit-animation-delay: .55s;
+	-webkit-animation-fill-mode: forwards;
+}
+
+.ajax-animation-in > :nth-child(13) {
+	animation-name: ajax-animation-in;
+	animation-duration: .3s;
+	animation-delay: .60s;
+	animation-fill-mode: forwards;
+	-webkit-animation-name: ajax-animation-in;
+	-webkit-animation-duration: .3s;
+	-webkit-animation-delay: .60s;
+	-webkit-animation-fill-mode: forwards;
+}
+
+.ajax-animation-in > :nth-child(14) {
+	animation-name: ajax-animation-in;
+	animation-duration: .3s;
+	animation-delay: .65s;
+	animation-fill-mode: forwards;
+	-webkit-animation-name: ajax-animation-in;
+	-webkit-animation-duration: .3s;
+	-webkit-animation-delay: .65s;
+	-webkit-animation-fill-mode: forwards;
+}
+
+.ajax-animation-in > :nth-child(15) {
+	animation-name: ajax-animation-in;
+	animation-duration: .3s;
+	animation-delay: .70s;
+	animation-fill-mode: forwards;
+	-webkit-animation-name: ajax-animation-in;
+	-webkit-animation-duration: .3s;
+	-webkit-animation-delay: .70s;
+	-webkit-animation-fill-mode: forwards;
+}
+
+.ajax-animation-in > :nth-child(16) {
+	animation-name: ajax-animation-in;
+	animation-duration: .3s;
+	animation-delay: .75s;
+	animation-fill-mode: forwards;
+	-webkit-animation-name: ajax-animation-in;
+	-webkit-animation-duration: .3s;
+	-webkit-animation-delay: .75s;
+	-webkit-animation-fill-mode: forwards;
+}
+
+.ajax-animation-in > :nth-child(17) {
+	animation-name: ajax-animation-in;
+	animation-duration: .3s;
+	animation-delay: .80s;
+	animation-fill-mode: forwards;
+	-webkit-animation-name: ajax-animation-in;
+	-webkit-animation-duration: .3s;
+	-webkit-animation-delay: .80s;
+	-webkit-animation-fill-mode: forwards;
+}
+
+.ajax-animation-in > :nth-child(18) {
+	animation-name: ajax-animation-in;
+	animation-duration: .3s;
+	animation-delay: .85s;
+	animation-fill-mode: forwards;
+	-webkit-animation-name: ajax-animation-in;
+	-webkit-animation-duration: .3s;
+	-webkit-animation-delay: .85s;
+	-webkit-animation-fill-mode: forwards;
+}
+
+.ajax-animation-in > :nth-child(19) {
+	animation-name: ajax-animation-in;
+	animation-duration: .3s;
+	animation-delay: .90s;
+	animation-fill-mode: forwards;
+	-webkit-animation-name: ajax-animation-in;
+	-webkit-animation-duration: .3s;
+	-webkit-animation-delay: .90s;
+	-webkit-animation-fill-mode: forwards;
+}
+
+.ajax-animation-in > :nth-child(20) {
+	animation-name: ajax-animation-in;
+	animation-duration: .3s;
+	animation-delay: .95s;
+	animation-fill-mode: forwards;
+	-webkit-animation-name: ajax-animation-in;
+	-webkit-animation-duration: .3s;
+	-webkit-animation-delay: .95s;
 	-webkit-animation-fill-mode: forwards;
 }
