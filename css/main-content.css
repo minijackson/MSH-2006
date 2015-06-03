@@ -1,9 +1,9 @@
 @font-face {
     font-family: 'BLOKKNeue-Regular';
-    src: url('BLOKKNeue-Regular.eot');
-    src: url('BLOKKNeue-Regular.eot?#iefix') format('embedded-opentype'),
-         url('BLOKKNeue-Regular.woff') format('woff'),
-         url('BLOKKNeue-Regular.svg#BLOKKNeue-Regular') format('svg');
+    src: url('fonts/BLOKKNeue-Regular.eot');
+    src: url('fonts/BLOKKNeue-Regular.eot?#iefix') format('embedded-opentype'),
+         url('fonts/BLOKKNeue-Regular.woff') format('woff'),
+         url('fonts/BLOKKNeue-Regular.svg#BLOKKNeue-Regular') format('svg');
     font-weight: normal;
     font-style: normal;
 }
@@ -11,12 +11,29 @@
 .main {
 	width: 100%;
 	background: #28324e;
-	padding: 5em;
+	padding: 4vw;
 	overflow: hidden;
-    /*font-family: 'BLOKKNeue-Regular';*/
+	/*font-family: 'BLOKKNeue-Regular';*/
 }
 
 .main h1 {
 	font-size: 3em;
 	margin-bottom: .33em;
+}
+
+.main .columns {
+	display: flex;
+	display: -webkit-flex;
+	flex-wrap: wrap;
+	-webkit-flex-wrap: wrap;
+	align-items: center;
+	-webkit-align-items: center;
+	justify-content: center;
+	-webkit-justify-content: center;
+}
+
+.main .columns p {
+	margin: 2em;
+	/*min-width: 30em;*/
+	max-width: 50em;
 }
