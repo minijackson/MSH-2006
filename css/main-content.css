@@ -8,22 +8,57 @@
     font-style: normal;
 }
 
+body {
+	display: flex;
+	display: -webkit-flex;
+	min-height: 100vh;
+	flex-direction: column;
+	-webkit-flex-direction: column;
+}
+
 .main {
+	flex: 1;
+	-webkit-flex: 1;
 	width: 100%;
 	background: #28324e;
 	padding: 4vw;
 	overflow: hidden;
+	font-size: 1.2em;
 	/*font-family: 'BLOKKNeue-Regular';*/
 }
 
 .main h1 {
-	font-size: 3em;
-	margin: .33em 0 .33em 0;
+	font-size: 3.5em;
+	font-family: "Alegreya Sans Light";
+	margin: .33em 0 2em 0;
+	padding-bottom: .3em;
+	border-bottom: 5px solid white;
 }
 
 .main h2 {
 	font-size: 2em;
+	font-family: "Alegreya Sans Light";
+	margin: 4em 5vw 5em 5vw;
+	text-align: center;
+	padding-bottom: .3em;
+	border-bottom: 5px solid rgb(211, 84, 0);
+	/*border-bottom: 5px solid rgba(192, 57, 43,1.0);*/
+	/*border-bottom: 5px solid rgba(22, 160, 133,1.0);*/
+	border-radius: 5px;
+	color: rgb(211, 84, 0);
+	/*color: rgba(192, 57, 43,1.0);*/
+	/*color: rgba(22, 160, 133,1.0);*/
+}
+
+.main h3 {
+	font-size: 1.5em;
+	font-family: "Alegreya Sans Light";
 	margin: .33em 0 .33em 0;
+	padding-bottom: .4em;
+	border-bottom: 2px solid white;
+	width: 90%;
+	border-bottom: 5px solid rgb(230, 176, 34);
+	color: rgb(230, 176, 34);
 }
 
 .main .columns {
@@ -31,17 +66,27 @@
 	display: -webkit-flex;
 	flex-wrap: wrap;
 	-webkit-flex-wrap: wrap;
-	align-items: center;
-	-webkit-align-items: center;
-	justify-content: center;
-	-webkit-justify-content: center;
+	align-items: left;
+	-webkit-align-items: left;
+	justify-content: left;
+	-webkit-justify-content: left;
+
+	margin-top: 5em;
+}
+
+.main .column {
+	flex: 1;
+	-webkit-flex: 1;
+	min-width: 18em;
 }
 
 .main p {
 	text-indent: 2em;
-	margin: 2em;
+	margin: 1vw;
+	line-height: 1.2em;
 	/*min-width: 30em;*/
-	max-width: 50em;
+	max-width: 35em;
+	text-align: justify;
 }
 
 .main blockquote {

@@ -1,5 +1,6 @@
 footer {
 	width: 100%;
-	background: #28324e;
+	/*background: #28324e;*/
+	background: rgb(25, 25, 30);
 	padding: 2em;
 }
