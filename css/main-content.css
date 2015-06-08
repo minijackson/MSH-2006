@@ -24,7 +24,6 @@ body {
 	padding: 4vw;
 	overflow: hidden;
 	font-size: 1.2em;
-	/*font-family: 'BLOKKNeue-Regular';*/
 }
 
 .main h1 {
@@ -38,22 +37,18 @@ body {
 .main h2 {
 	font-size: 2em;
 	font-family: "Alegreya Sans Light";
-	margin: 4em 5vw 5em 5vw;
+	margin: 4em 5vw 3em 5vw;
 	text-align: center;
 	padding-bottom: .3em;
 	border-bottom: 5px solid rgb(211, 84, 0);
-	/*border-bottom: 5px solid rgba(192, 57, 43,1.0);*/
-	/*border-bottom: 5px solid rgba(22, 160, 133,1.0);*/
 	border-radius: 5px;
 	color: rgb(211, 84, 0);
-	/*color: rgba(192, 57, 43,1.0);*/
-	/*color: rgba(22, 160, 133,1.0);*/
 }
 
 .main h3 {
 	font-size: 1.5em;
 	font-family: "Alegreya Sans Light";
-	margin: .33em 0 .33em 0;
+	margin: .33em auto 1.5em auto;
 	padding-bottom: .4em;
 	border-bottom: 2px solid white;
 	width: 90%;
@@ -77,7 +72,8 @@ body {
 .main .column {
 	flex: 1;
 	-webkit-flex: 1;
-	min-width: 18em;
+	/*min-width: 18em;*/
+	min-width: 30em;
 }
 
 .main p {
@@ -96,4 +92,28 @@ body {
 	background-color: rgba(189, 195, 199, .5);
 	padding: 1em;
 	max-width: 50em;
+}
+
+.main blockquote .quote-source {
+	text-align: right;
+	font-size: .75em;
+	margin-top: 1em;
+}
+
+.main blockquote .quote-source::before {
+	content: "--";
+}
+
+.main ul, .main ol {
+	padding-top: 1em;
+	padding-left: 5em;
+	line-height: 1.5em;
+}
+
+.main ul {
+	list-style-type: circle;
+}
+
+.main ol {
+	list-style-type: decimal;
 }
