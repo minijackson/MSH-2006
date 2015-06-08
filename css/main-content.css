@@ -18,7 +18,12 @@
 
 .main h1 {
 	font-size: 3em;
-	margin-bottom: .33em;
+	margin: .33em 0 .33em 0;
+}
+
+.main h2 {
+	font-size: 2em;
+	margin: .33em 0 .33em 0;
 }
 
 .main .columns {
@@ -32,8 +37,18 @@
 	-webkit-justify-content: center;
 }
 
-.main .columns p {
+.main p {
+	text-indent: 2em;
 	margin: 2em;
 	/*min-width: 30em;*/
+	max-width: 50em;
+}
+
+.main blockquote {
+	text-indent: 2em;
+	border-radius: 5px;
+	border-left: .7em solid rgba(189, 195, 199,1.0);
+	background-color: rgba(189, 195, 199, .5);
+	padding: 1em;
 	max-width: 50em;
 }
