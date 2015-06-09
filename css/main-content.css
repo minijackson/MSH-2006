@@ -8,6 +8,41 @@
     font-style: normal;
 }
 
+@font-face {
+    font-family: 'Comfortaa';
+    src: url('fonts/Comfortaa-Light.ttf');
+    font-weight: lighter;
+    font-style: normal;
+}
+
+@font-face {
+    font-family: 'Cantarell';
+    src: url('fonts/Cantarell-Regular.ttf');
+    font-weight: normal;
+    font-style: normal;
+}
+
+@font-face {
+    font-family: 'Cantarell';
+    src: url('fonts/Cantarell-Bold.ttf');
+    font-weight: bold;
+    font-style: normal;
+}
+
+@font-face {
+    font-family: 'Cantarell';
+    src: url('fonts/Cantarell-Oblique.ttf');
+    font-weight: normal;
+    font-style: italic;
+}
+
+@font-face {
+    font-family: 'Cantarell';
+    src: url('fonts/Cantarell-BoldOblique.ttf');
+    font-weight: bold;
+    font-style: italic;
+}
+
 body {
 	display: flex;
 	display: -webkit-flex;
@@ -27,7 +62,7 @@ body {
 }
 
 .main h1, .main h2, .main h3, .main h4, .main h5 {
-	font-family: "Comfortaa";
+	font-family: "Comfortaa", sans;
 	font-weight: lighter;
 }
 
