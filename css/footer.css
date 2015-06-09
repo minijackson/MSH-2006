@@ -4,3 +4,7 @@ footer {
 	background: rgb(25, 25, 30);
 	padding: 2em;
 }
+
+.family-name {
+	font-variant: small-caps;
+}
